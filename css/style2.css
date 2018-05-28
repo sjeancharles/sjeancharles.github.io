@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color: #666666;
+	background-color:white;
+	background-image: url('../images/SomeBackgroundImage.jpg');
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align:center;
+}
+
+
+
+h2 {
+	font-size: 2.5em;
+	font-weight: 10%;
+    line-height: 1.2em;
+	padding-bottom: .5em;
+}
+
+nav {
+	width:100%;
+	padding: 3% 0;
+	border-bottom: 1px solid #CCC;
+    background-color: rgb(23, 169, 91);
+}
+
+nav a:hover {
+	color: #99CC99;
+}
+nav a {
+	width: 19%;
+	display:inline-block;
+	font-weight: 700;
+	text-decoration:none;
+	text-transform: uppercase;
+    color: white;
+}
+section{
+    width:100%;
+	padding:0%;
+    margin-bottom:2%;
+    border-bottom: 1px solid #ccc;
+}
+section #projects{
+    margin: 4%;
+}
